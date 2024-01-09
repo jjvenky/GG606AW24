@@ -1,0 +1,144 @@
+---
+title: "Main"
+---
+
+# Introduction
+
+*Scheduled as Thursday 08:30--11:20, Schlegel Building Room SB305*
+
+## Course Information
+
+This course covers the data science skills comprising data visualization, data wrangling (cleaning, combining, modelling, etc.), and methodological and statistical design, which are an important part of the scientific method.
+
+## Course Goals and Learning Outcomes
+
+Skills and products developed in this course will be employed on models built on example data sets generated for each research chapter of each student’s thesis/project, i.e. data sets that are messy, contain holes, and have different statistical distributions. Students will benefit from working with data flows they have developed and modified based on collaborative interactions with classmates via multi-user repositories.
+
+Outcomes include:
+
+-   describe the characteristics of datasets in order to plan for data wrangling and visualisation
+
+-   develop workflows for dealing with disparate data types
+
+-   apply knowledge to tidy, transform, visualize, model datasets similar to thesis/project data
+
+## Required Text
+
+-   Wickham H, Çetinkaya-RundelM, Grolemund G. 2020. R for Data Science, 2nd Edition: Import, Tidy, Transform, Visualize, and Model Data. O'Reilly Media. Chicago, available online at <https://r4ds.hadley.nz/>
+
+-   Timbers T-A, Campbell T, Lee M. 2021. Introduction to Data Science, available online at [https://datasciencebook.ca](https://datasciencebook.ca/){.uri}
+
+## Supplementary Readings
+
+-   Broman KW, Woo KH. 2018. Data Organization in Spreadsheets. The American Statistician 72(1): 2-10. <https://doi.org/10.1080/00031305.2017.1375989>
+
+-   Bryan J, et al. 2018. Happy Git and GitHub for the useR. <http://happygitwithr.com/>
+
+-   Hampton SE, Anderson SS, Bagby SC, Gries C, Han X, Hart EM, Jones MB, Lenhardt WC, MacDonald A, Michener WK, Mudge J, Pourmokhtarian A, Schildhauer MP, Woo KH, Zimmerman N. 2015. The Tao of open science for ecology. Ecosphere 6(7):120. <http://dx.doi.org/10.1890/ES14-00402.1>
+
+-   Hart EM, Barmby P, LeBauer D, Michonneau F, Mount S, Mulrooney P, et al. 2016. Ten Simple Rules for Digital Data Storage. PLoS Comput Biol12(10): e1005097. <https://doi.org/10.1371/journal.pcbi.1005097>
+
+-   Sixteen peer-reviewed journal articles in the PeerJ Collection, Practical Data Science for Stats: <https://peerj.com/collections/50-practicaldatascistats/>
+
+-   Wilke CO. 2019. Fundamental of Data Visualization: A Primer on Making Informative and Compelling Figures. O'Reilly Media. Chicago, <https://clauswilke.com/dataviz/>
+
+## Cheatsheets
+
+-   [Posit Cheatsheets](https://posit.co/resources/cheatsheets/)
+
+## Course Requirements
+
+-   This course will use R, RStudio, and the tidyverse packages. Other softwares will also be discussed.
+
+-   Students need to have a computer with R and RStudio Desktop installed. • Windows users:
+
+    -   Download and install R from CRAN <https://cran.r-project.org/bin/windows/base/release.htm>
+
+    -   Download and install RStudio Desktop from posit <https://posit.co/download/rstudio-desktop/>
+
+    -   Open RStudio to check that there are no error messages
+
+-   Mac OS X users:
+
+    -   Go to CRAN <https://cran.r-project.org/>
+
+    -   Click “Download R for (Mac) OS X”
+
+    -   Download and install the appropriate pkg file for your version of OS X
+
+    -   Download and install RStudio Desktop from posit <https://posit.co/download/rstudio-desktop/>
+
+    -   Open RStudio to check that there are no error messages
+
+-   Linux users:
+
+    -   R is available through most Linux package managers. You can download the binary files for your distribution from CRAN <https://cran.r-project.org/> . Or you can use your package manager (e.g. for Debian/Ubuntu run `sudo apt-get install r-base` and for Fedora run `sudo yum install R`).
+
+    -   Download and install RStudio Desktop from posit <https://posit.co/download/rstudio-desktop/>
+
+    -   Open RStudio to check that there are no error messages
+
+-   The tidyverse packages <https://www.tidyverse.org/packages/> can be installed from inside RStudio by running `install.packages("tidyverse")` in the R Console or from the Packages tab in the lower right quarter of RStudio.
+
+## Class Structure
+
+-   Each class will begin with a high-level discussion and presentation of the topic. Students are encouraged to participate and bring examples from their field of study for discussion.
+
+-   Each class will have computer-based work and associated readings and discussion of R for Data Science and Happy Git with R that the students will lead. It is important to come prepared and with questions.
+
+## Evaluation
+
++---------------------------+-----------+--------------------+
+| Assessment                | Weighting | Due Date           |
++===========================+===========+====================+
+| Assignments (2×15%)       | 30%       | February 8\        |
+|                           |           | March 7            |
++---------------------------+-----------+--------------------+
+| Analytics Demo            | 40%       | March 28 & April 4 |
++---------------------------+-----------+--------------------+
+| Lecture Engagement (2×5%) | 10%       |                    |
++---------------------------+-----------+--------------------+
+| Participation             | 15%       |                    |
++---------------------------+-----------+--------------------+
+| Course notebook           | 15%       |                    |
++---------------------------+-----------+--------------------+
+| Total                     | 100%      |                    |
++---------------------------+-----------+--------------------+
+
+### Assignments
+
+Two assignments will require students to demonstrate data wrangling and visualisation skills learned in the course. Data sets will be provided.
+
+### Analytics Demo
+
+Students will demonstrate a technical topic with a complete analytic walk-through of an existing analysis from a paper in an area of interest.
+
+### Lecture Engagement
+
+Two engagement pieces will require students to conduct short data wrangling exercises to apply material directly from the lectures. Data sets will be provided.
+
+### Participation
+
+Students will be expected to attend and participate in designated class times. Participate includes contributing to discussions and working collaboratively with other students when needed.
+
+### Course Notebook
+
+Students will keep a notebook to keep track of their learning throughout the course. These can be as digital or hardcopy, and will be graded at the end of the course for depth and quality of notes, and coverage of topics covered in the course. Hardcopy notebooks will be returned to students after grading. The goals of the notebook are to encourage some active participation and learning in the lecture part of the course and to encourage students to build their own take-aways that can be used later.
+
+## Schedule
+
+| Week        | Topic                                         | Tools |
+|:------------|:----------------------------------------------|:------|
+| January 11  | Introduction, data visualisation              |       |
+| January 18  | Data workflows                                |       |
+| January 25  | Data transformations and wrangling            |       |
+| February 1  | Exploration, data types                       |       |
+| February 8  | Tidying data, data forms and formats          |       |
+| February 15 | Dates, times, time series                     |       |
+| February 22 | Reading Week                                  |       |
+| February 29 | Work Period & Catch Up                        |       |
+| March 7     | Pipes and functions                           |       |
+| March 14    | Functions, more functions and packages & Misc |       |
+| March 21    | Presentations                                 |       |
+| March 28    | Presentations                                 |       |
+| April 4     | Presentations                                 |       |

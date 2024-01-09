@@ -1,0 +1,22 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "GG606 Winter 2024"
+  favicon: "favicon.png"
+  author: "Jason Venkiteswaran"
+  date: "2024-01-08"
+  chapters:
+    - index.qmd
+    - readings.qmd
+    - assignments.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: style.css
+    toc: true
+
+editor: visual
+

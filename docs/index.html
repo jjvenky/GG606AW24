@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Jason Venkiteswaran">
+<meta name="dcterms.date" content="2024-01-08">
+
+<title>GG606 Winter 2024</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./readings.html" rel="next">
+<link href="./favicon.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Main</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">GG606 Winter 2024</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Main</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./readings.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Readings</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./assignments.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Assignments</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">1</span> Introduction</a>
+  <ul class="collapse">
+  <li><a href="#course-information" id="toc-course-information" class="nav-link" data-scroll-target="#course-information"><span class="header-section-number">1.1</span> Course Information</a></li>
+  <li><a href="#course-goals-and-learning-outcomes" id="toc-course-goals-and-learning-outcomes" class="nav-link" data-scroll-target="#course-goals-and-learning-outcomes"><span class="header-section-number">1.2</span> Course Goals and Learning Outcomes</a></li>
+  <li><a href="#required-text" id="toc-required-text" class="nav-link" data-scroll-target="#required-text"><span class="header-section-number">1.3</span> Required Text</a></li>
+  <li><a href="#supplementary-readings" id="toc-supplementary-readings" class="nav-link" data-scroll-target="#supplementary-readings"><span class="header-section-number">1.4</span> Supplementary Readings</a></li>
+  <li><a href="#cheatsheets" id="toc-cheatsheets" class="nav-link" data-scroll-target="#cheatsheets"><span class="header-section-number">1.5</span> Cheatsheets</a></li>
+  <li><a href="#course-requirements" id="toc-course-requirements" class="nav-link" data-scroll-target="#course-requirements"><span class="header-section-number">1.6</span> Course Requirements</a></li>
+  <li><a href="#class-structure" id="toc-class-structure" class="nav-link" data-scroll-target="#class-structure"><span class="header-section-number">1.7</span> Class Structure</a></li>
+  <li><a href="#evaluation" id="toc-evaluation" class="nav-link" data-scroll-target="#evaluation"><span class="header-section-number">1.8</span> Evaluation</a>
+  <ul class="collapse">
+  <li><a href="#assignments" id="toc-assignments" class="nav-link" data-scroll-target="#assignments"><span class="header-section-number">1.8.1</span> Assignments</a></li>
+  <li><a href="#analytics-demo" id="toc-analytics-demo" class="nav-link" data-scroll-target="#analytics-demo"><span class="header-section-number">1.8.2</span> Analytics Demo</a></li>
+  <li><a href="#lecture-engagement" id="toc-lecture-engagement" class="nav-link" data-scroll-target="#lecture-engagement"><span class="header-section-number">1.8.3</span> Lecture Engagement</a></li>
+  <li><a href="#participation" id="toc-participation" class="nav-link" data-scroll-target="#participation"><span class="header-section-number">1.8.4</span> Participation</a></li>
+  <li><a href="#course-notebook" id="toc-course-notebook" class="nav-link" data-scroll-target="#course-notebook"><span class="header-section-number">1.8.5</span> Course Notebook</a></li>
+  </ul></li>
+  <li><a href="#schedule" id="toc-schedule" class="nav-link" data-scroll-target="#schedule"><span class="header-section-number">1.9</span> Schedule</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">GG606 Winter 2024</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jason Venkiteswaran </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 8, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="introduction" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Introduction</h1>
+<p><em>Scheduled as Thursday 08:30–11:20, Schlegel Building Room SB305</em></p>
+<section id="course-information" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="course-information"><span class="header-section-number">1.1</span> Course Information</h2>
+<p>This course covers the data science skills comprising data visualization, data wrangling (cleaning, combining, modelling, etc.), and methodological and statistical design, which are an important part of the scientific method.</p>
+</section>
+<section id="course-goals-and-learning-outcomes" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="course-goals-and-learning-outcomes"><span class="header-section-number">1.2</span> Course Goals and Learning Outcomes</h2>
+<p>Skills and products developed in this course will be employed on models built on example data sets generated for each research chapter of each student’s thesis/project, i.e.&nbsp;data sets that are messy, contain holes, and have different statistical distributions. Students will benefit from working with data flows they have developed and modified based on collaborative interactions with classmates via multi-user repositories.</p>
+<p>Outcomes include:</p>
+<ul>
+<li><p>describe the characteristics of datasets in order to plan for data wrangling and visualisation</p></li>
+<li><p>develop workflows for dealing with disparate data types</p></li>
+<li><p>apply knowledge to tidy, transform, visualize, model datasets similar to thesis/project data</p></li>
+</ul>
+</section>
+<section id="required-text" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="required-text"><span class="header-section-number">1.3</span> Required Text</h2>
+<ul>
+<li><p>Wickham H, Çetinkaya-RundelM, Grolemund G. 2020. R for Data Science, 2nd Edition: Import, Tidy, Transform, Visualize, and Model Data. O’Reilly Media. Chicago, available online at <a href="https://r4ds.hadley.nz/" class="uri">https://r4ds.hadley.nz/</a></p></li>
+<li><p>Timbers T-A, Campbell T, Lee M. 2021. Introduction to Data Science, available online at <a href="https://datasciencebook.ca/" class="uri">https://datasciencebook.ca</a></p></li>
+</ul>
+</section>
+<section id="supplementary-readings" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="supplementary-readings"><span class="header-section-number">1.4</span> Supplementary Readings</h2>
+<ul>
+<li><p>Broman KW, Woo KH. 2018. Data Organization in Spreadsheets. The American Statistician 72(1): 2-10. <a href="https://doi.org/10.1080/00031305.2017.1375989" class="uri">https://doi.org/10.1080/00031305.2017.1375989</a></p></li>
+<li><p>Bryan J, et al.&nbsp;2018. Happy Git and GitHub for the useR. <a href="http://happygitwithr.com/" class="uri">http://happygitwithr.com/</a></p></li>
+<li><p>Hampton SE, Anderson SS, Bagby SC, Gries C, Han X, Hart EM, Jones MB, Lenhardt WC, MacDonald A, Michener WK, Mudge J, Pourmokhtarian A, Schildhauer MP, Woo KH, Zimmerman N. 2015. The Tao of open science for ecology. Ecosphere 6(7):120. <a href="http://dx.doi.org/10.1890/ES14-00402.1" class="uri">http://dx.doi.org/10.1890/ES14-00402.1</a></p></li>
+<li><p>Hart EM, Barmby P, LeBauer D, Michonneau F, Mount S, Mulrooney P, et al.&nbsp;2016. Ten Simple Rules for Digital Data Storage. PLoS Comput Biol12(10): e1005097. <a href="https://doi.org/10.1371/journal.pcbi.1005097" class="uri">https://doi.org/10.1371/journal.pcbi.1005097</a></p></li>
+<li><p>Sixteen peer-reviewed journal articles in the PeerJ Collection, Practical Data Science for Stats: <a href="https://peerj.com/collections/50-practicaldatascistats/" class="uri">https://peerj.com/collections/50-practicaldatascistats/</a></p></li>
+<li><p>Wilke CO. 2019. Fundamental of Data Visualization: A Primer on Making Informative and Compelling Figures. O’Reilly Media. Chicago, <a href="https://clauswilke.com/dataviz/" class="uri">https://clauswilke.com/dataviz/</a></p></li>
+</ul>
+</section>
+<section id="cheatsheets" class="level2" data-number="1.5">
+<h2 data-number="1.5" class="anchored" data-anchor-id="cheatsheets"><span class="header-section-number">1.5</span> Cheatsheets</h2>
+<ul>
+<li><a href="https://posit.co/resources/cheatsheets/">Posit Cheatsheets</a></li>
+</ul>
+</section>
+<section id="course-requirements" class="level2" data-number="1.6">
+<h2 data-number="1.6" class="anchored" data-anchor-id="course-requirements"><span class="header-section-number">1.6</span> Course Requirements</h2>
+<ul>
+<li><p>This course will use R, RStudio, and the tidyverse packages. Other softwares will also be discussed.</p></li>
+<li><p>Students need to have a computer with R and RStudio Desktop installed. • Windows users:</p>
+<ul>
+<li><p>Download and install R from CRAN <a href="https://cran.r-project.org/bin/windows/base/release.htm" class="uri">https://cran.r-project.org/bin/windows/base/release.htm</a></p></li>
+<li><p>Download and install RStudio Desktop from posit <a href="https://posit.co/download/rstudio-desktop/" class="uri">https://posit.co/download/rstudio-desktop/</a></p></li>
+<li><p>Open RStudio to check that there are no error messages</p></li>
+</ul></li>
+<li><p>Mac OS X users:</p>
+<ul>
+<li><p>Go to CRAN <a href="https://cran.r-project.org/" class="uri">https://cran.r-project.org/</a></p></li>
+<li><p>Click “Download R for (Mac) OS X”</p></li>
+<li><p>Download and install the appropriate pkg file for your version of OS X</p></li>
+<li><p>Download and install RStudio Desktop from posit <a href="https://posit.co/download/rstudio-desktop/" class="uri">https://posit.co/download/rstudio-desktop/</a></p></li>
+<li><p>Open RStudio to check that there are no error messages</p></li>
+</ul></li>
+<li><p>Linux users:</p>
+<ul>
+<li><p>R is available through most Linux package managers. You can download the binary files for your distribution from CRAN <a href="https://cran.r-project.org/" class="uri">https://cran.r-project.org/</a> . Or you can use your package manager (e.g.&nbsp;for Debian/Ubuntu run <code>sudo apt-get install r-base</code> and for Fedora run <code>sudo yum install R</code>).</p></li>
+<li><p>Download and install RStudio Desktop from posit <a href="https://posit.co/download/rstudio-desktop/" class="uri">https://posit.co/download/rstudio-desktop/</a></p></li>
+<li><p>Open RStudio to check that there are no error messages</p></li>
+</ul></li>
+<li><p>The tidyverse packages <a href="https://www.tidyverse.org/packages/" class="uri">https://www.tidyverse.org/packages/</a> can be installed from inside RStudio by running <code>install.packages("tidyverse")</code> in the R Console or from the Packages tab in the lower right quarter of RStudio.</p></li>
+</ul>
+</section>
+<section id="class-structure" class="level2" data-number="1.7">
+<h2 data-number="1.7" class="anchored" data-anchor-id="class-structure"><span class="header-section-number">1.7</span> Class Structure</h2>
+<ul>
+<li><p>Each class will begin with a high-level discussion and presentation of the topic. Students are encouraged to participate and bring examples from their field of study for discussion.</p></li>
+<li><p>Each class will have computer-based work and associated readings and discussion of R for Data Science and Happy Git with R that the students will lead. It is important to come prepared and with questions.</p></li>
+</ul>
+</section>
+<section id="evaluation" class="level2" data-number="1.8">
+<h2 data-number="1.8" class="anchored" data-anchor-id="evaluation"><span class="header-section-number">1.8</span> Evaluation</h2>
+<table class="table">
+<colgroup>
+<col style="width: 38%">
+<col style="width: 16%">
+<col style="width: 29%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Assessment</th>
+<th>Weighting</th>
+<th>Due Date</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Assignments (2×15%)</td>
+<td>30%</td>
+<td>February 8<br>
+March 7</td>
+</tr>
+<tr class="even">
+<td>Analytics Demo</td>
+<td>40%</td>
+<td>March 28 &amp; April 4</td>
+</tr>
+<tr class="odd">
+<td>Lecture Engagement (2×5%)</td>
+<td>10%</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Participation</td>
+<td>15%</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Course notebook</td>
+<td>15%</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Total</td>
+<td>100%</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<section id="assignments" class="level3" data-number="1.8.1">
+<h3 data-number="1.8.1" class="anchored" data-anchor-id="assignments"><span class="header-section-number">1.8.1</span> Assignments</h3>
+<p>Two assignments will require students to demonstrate data wrangling and visualisation skills learned in the course. Data sets will be provided.</p>
+</section>
+<section id="analytics-demo" class="level3" data-number="1.8.2">
+<h3 data-number="1.8.2" class="anchored" data-anchor-id="analytics-demo"><span class="header-section-number">1.8.2</span> Analytics Demo</h3>
+<p>Students will demonstrate a technical topic with a complete analytic walk-through of an existing analysis from a paper in an area of interest.</p>
+</section>
+<section id="lecture-engagement" class="level3" data-number="1.8.3">
+<h3 data-number="1.8.3" class="anchored" data-anchor-id="lecture-engagement"><span class="header-section-number">1.8.3</span> Lecture Engagement</h3>
+<p>Two engagement pieces will require students to conduct short data wrangling exercises to apply material directly from the lectures. Data sets will be provided.</p>
+</section>
+<section id="participation" class="level3" data-number="1.8.4">
+<h3 data-number="1.8.4" class="anchored" data-anchor-id="participation"><span class="header-section-number">1.8.4</span> Participation</h3>
+<p>Students will be expected to attend and participate in designated class times. Participate includes contributing to discussions and working collaboratively with other students when needed.</p>
+</section>
+<section id="course-notebook" class="level3" data-number="1.8.5">
+<h3 data-number="1.8.5" class="anchored" data-anchor-id="course-notebook"><span class="header-section-number">1.8.5</span> Course Notebook</h3>
+<p>Students will keep a notebook to keep track of their learning throughout the course. These can be as digital or hardcopy, and will be graded at the end of the course for depth and quality of notes, and coverage of topics covered in the course. Hardcopy notebooks will be returned to students after grading. The goals of the notebook are to encourage some active participation and learning in the lecture part of the course and to encourage students to build their own take-aways that can be used later.</p>
+</section>
+</section>
+<section id="schedule" class="level2" data-number="1.9">
+<h2 data-number="1.9" class="anchored" data-anchor-id="schedule"><span class="header-section-number">1.9</span> Schedule</h2>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Week</th>
+<th style="text-align: left;">Topic</th>
+<th style="text-align: left;">Tools</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">January 11</td>
+<td style="text-align: left;">Introduction, data visualisation</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">January 18</td>
+<td style="text-align: left;">Data workflows</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">January 25</td>
+<td style="text-align: left;">Data transformations and wrangling</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">February 1</td>
+<td style="text-align: left;">Exploration, data types</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">February 8</td>
+<td style="text-align: left;">Tidying data, data forms and formats</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">February 15</td>
+<td style="text-align: left;">Dates, times, time series</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">February 22</td>
+<td style="text-align: left;">Reading Week</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">February 29</td>
+<td style="text-align: left;">Work Period &amp; Catch Up</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">March 7</td>
+<td style="text-align: left;">Pipes and functions</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">March 14</td>
+<td style="text-align: left;">Functions, more functions and packages &amp; Misc</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">March 21</td>
+<td style="text-align: left;">Presentations</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">March 28</td>
+<td style="text-align: left;">Presentations</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">April 4</td>
+<td style="text-align: left;">Presentations</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./readings.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Readings</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>

@@ -1,0 +1,109 @@
+---
+title: "Readings"
+---
+
+## Intro, Data vis
+
+This week will provide an introduction to data science using `R`. You will be introduced to data science through the lens of exploratory data analysis, beginning with the *Wlole Game* section of the R4DS (2e) textbook, read and work through the following chapters:
+
+### Reading this week
+
+-   [R4DS Whole Game](https://r4ds.hadley.nz/whole-game)
+
+-   [R4DS Chapter 1 Data vis](https://r4ds.hadley.nz/data-visualize)
+
+-   [R4DS Chapter 2 Workflow basics](https://r4ds.hadley.nz/workflow-basics)
+
+-   [palmerpenguins](https://allisonhorst.github.io/palmerpenguins/) package homework
+
+## Data workflows
+
+### Reading this week
+
+-   [R4DS Chapter 6 Workflow scripts and projects](https://r4ds.hadley.nz/workflow-scripts)
+
+-   [R4DS Chapter 8 Getting help](https://r4ds.hadley.nz/workflow-help)
+
+-   Wickham. 2014. Tidy Data. Journal of Statistical Software, 59(10), 1--23. DOI: [10.18637/jss.v059.i10](https://doi.org/10.18637/jss.v059.i10)
+
+-   [here](https://here.r-lib.org/) package homework
+
+-   Jenny Bryan's view on [project-oriented workflows](https://www.tidyverse.org/blog/2017/12/workflow-vs-script/)
+
+## Data transformations and wrangling
+
+This week will cover the surprisingly important topic of data workflows including input and output. In the *Transform* section of the textbook, read and work through the following chapters:
+
+This week will cover changing, creating, reordering variables in order to wrangle and organise data. Ideas of wider data vs longer data (and messy) are important here too.
+
+### Reading this week
+
+-   [R4DS Transform section](https://r4ds.hadley.nz/transform)
+
+-   [R4DS Chapter 3 Data transformation](https://r4ds.hadley.nz/data-transform)
+
+-   [R4DS Chapter 7 Data import](https://r4ds.hadley.nz/data-import)
+
+-   [R4DS Chapter 5 Data tidying](https://r4ds.hadley.nz/data-tidy)
+
+-   Karl W. Broman & Kara H. Woo (2018) Data Organization in Spreadsheets, The American Statistician, 72:1, 2-10, DOI: [10.1080/00031305.2017.1375989](https://doi.org/10.1080/00031305.2017.1375989)
+
+## Exploration, data types
+
+This week will continue to cover more wrangling and dealing with varying data types.
+
+### Reading this week
+
+-   [R4DS Transform section](https://r4ds.hadley.nz/transform)
+
+-   [R4DS Chapter 7 Data import](https://r4ds.hadley.nz/data-import)
+
+-   [R4DS Chapter 5 Data tidying](https://r4ds.hadley.nz/data-tidy) continued
+
+-   Amelia McNamara & Nicholas J. Horton (2018) Wrangling Categorical Data in R, The American Statistician, 72:1, 97-104, DOI: [10.1080/00031305.2017.1356375](https://doi.org/10.1080/00031305.2017.1356375)
+
+-   [WHO example](https://r4ds.hadley.nz/data-tidy.html#sec-pivoting) in R4DS Chapter 5
+
+## Tidying data, data forms and formats
+
+This week will move from wrangling data to using and creating relational data, dealing with and using strings and [rexexps](https://en.wikipedia.org/wiki/Regular_expression), and ideas around categorical (aka factors) variables.
+
+### Reading this week
+
+-   [R4DS Chapter 19 Joins](https://r4ds.hadley.nz/joins)
+
+-   [R4DS Chapter 14 Strings](https://r4ds.hadley.nz/strings)
+
+-   [R4DS Chapter 16 Factors](https://r4ds.hadley.nz/factors)
+
+-   Amelia McNamara & Nicholas J. Horton (2018) Wrangling Categorical Data in R, The American Statistician, 72:1, 97-104, DOI: [10.1080/00031305.2017.1356375](https://doi.org/10.1080/00031305.2017.1356375)
+
+## Dates, times, time series
+
+This week will continue in the *Transform* section and cover everyone's favourites dates and times. Time series data are a special type of data where we may have to consider the temporal autocorrelation as well as the common push to produce [forecast](https://pkg.robjhyndman.com/forecast/)s and [fable](http://fable.tidyverts.org/)s.
+
+### Reading this week
+
+-   [R4DS Chapter 16 Factors](https://r4ds.hadley.nz/factors)
+
+-   [R4DS Chapter 17 Dates and times](https://r4ds.hadley.nz/datetimes)
+
+## Functions and iteration
+
+This week we will move to the *Program* section and start thinking about automating some of the work.
+
+### Reading this week
+
+-   [R4DS Program section](https://r4ds.hadley.nz/program)
+
+-   [R4DS Chapter 25 Functions](https://r4ds.hadley.nz/functions)
+
+-   [R4DS Chapter 26 Iteration](https://r4ds.hadley.nz/iteration)
+
+## Functions and packages
+
+-   [R Packages (2e)](https://r-pkgs.org/)
+
+### Reading this week
+
+Hart EM, Barmby P, LeBauer D, Michonneau F, Mount S, Mulrooney P, et al. 2016. Ten Simple Rules for Digital Data Storage. PLoS Comput Biol12(10): e1005097, DOI: [10.1371/journal.pcbi.1005097](https://doi.org/10.1371/journal.pcbi.1005097)

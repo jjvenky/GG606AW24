@@ -1,0 +1,170 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "GG606 Winter 2024",
+    "section": "",
+    "text": "1 Introduction\nScheduled as Thursday 08:30–11:20, Schlegel Building Room SB305"
+  },
+  {
+    "objectID": "index.html#course-information",
+    "href": "index.html#course-information",
+    "title": "GG606 Winter 2024",
+    "section": "1.1 Course Information",
+    "text": "1.1 Course Information\nThis course covers the data science skills comprising data visualization, data wrangling (cleaning, combining, modelling, etc.), and methodological and statistical design, which are an important part of the scientific method."
+  },
+  {
+    "objectID": "index.html#course-goals-and-learning-outcomes",
+    "href": "index.html#course-goals-and-learning-outcomes",
+    "title": "GG606 Winter 2024",
+    "section": "1.2 Course Goals and Learning Outcomes",
+    "text": "1.2 Course Goals and Learning Outcomes\nSkills and products developed in this course will be employed on models built on example data sets generated for each research chapter of each student’s thesis/project, i.e. data sets that are messy, contain holes, and have different statistical distributions. Students will benefit from working with data flows they have developed and modified based on collaborative interactions with classmates via multi-user repositories.\nOutcomes include:\n\ndescribe the characteristics of datasets in order to plan for data wrangling and visualisation\ndevelop workflows for dealing with disparate data types\napply knowledge to tidy, transform, visualize, model datasets similar to thesis/project data"
+  },
+  {
+    "objectID": "index.html#required-text",
+    "href": "index.html#required-text",
+    "title": "GG606 Winter 2024",
+    "section": "1.3 Required Text",
+    "text": "1.3 Required Text\n\nWickham H, Çetinkaya-RundelM, Grolemund G. 2020. R for Data Science, 2nd Edition: Import, Tidy, Transform, Visualize, and Model Data. O’Reilly Media. Chicago, available online at https://r4ds.hadley.nz/\nTimbers T-A, Campbell T, Lee M. 2021. Introduction to Data Science, available online at https://datasciencebook.ca"
+  },
+  {
+    "objectID": "index.html#supplementary-readings",
+    "href": "index.html#supplementary-readings",
+    "title": "GG606 Winter 2024",
+    "section": "1.4 Supplementary Readings",
+    "text": "1.4 Supplementary Readings\n\nBroman KW, Woo KH. 2018. Data Organization in Spreadsheets. The American Statistician 72(1): 2-10. https://doi.org/10.1080/00031305.2017.1375989\nBryan J, et al. 2018. Happy Git and GitHub for the useR. http://happygitwithr.com/\nHampton SE, Anderson SS, Bagby SC, Gries C, Han X, Hart EM, Jones MB, Lenhardt WC, MacDonald A, Michener WK, Mudge J, Pourmokhtarian A, Schildhauer MP, Woo KH, Zimmerman N. 2015. The Tao of open science for ecology. Ecosphere 6(7):120. http://dx.doi.org/10.1890/ES14-00402.1\nHart EM, Barmby P, LeBauer D, Michonneau F, Mount S, Mulrooney P, et al. 2016. Ten Simple Rules for Digital Data Storage. PLoS Comput Biol12(10): e1005097. https://doi.org/10.1371/journal.pcbi.1005097\nSixteen peer-reviewed journal articles in the PeerJ Collection, Practical Data Science for Stats: https://peerj.com/collections/50-practicaldatascistats/\nWilke CO. 2019. Fundamental of Data Visualization: A Primer on Making Informative and Compelling Figures. O’Reilly Media. Chicago, https://clauswilke.com/dataviz/"
+  },
+  {
+    "objectID": "index.html#cheatsheets",
+    "href": "index.html#cheatsheets",
+    "title": "GG606 Winter 2024",
+    "section": "1.5 Cheatsheets",
+    "text": "1.5 Cheatsheets\n\nPosit Cheatsheets"
+  },
+  {
+    "objectID": "index.html#course-requirements",
+    "href": "index.html#course-requirements",
+    "title": "GG606 Winter 2024",
+    "section": "1.6 Course Requirements",
+    "text": "1.6 Course Requirements\n\nThis course will use R, RStudio, and the tidyverse packages. Other softwares will also be discussed.\nStudents need to have a computer with R and RStudio Desktop installed. • Windows users:\n\nDownload and install R from CRAN https://cran.r-project.org/bin/windows/base/release.htm\nDownload and install RStudio Desktop from posit https://posit.co/download/rstudio-desktop/\nOpen RStudio to check that there are no error messages\n\nMac OS X users:\n\nGo to CRAN https://cran.r-project.org/\nClick “Download R for (Mac) OS X”\nDownload and install the appropriate pkg file for your version of OS X\nDownload and install RStudio Desktop from posit https://posit.co/download/rstudio-desktop/\nOpen RStudio to check that there are no error messages\n\nLinux users:\n\nR is available through most Linux package managers. You can download the binary files for your distribution from CRAN https://cran.r-project.org/ . Or you can use your package manager (e.g. for Debian/Ubuntu run sudo apt-get install r-base and for Fedora run sudo yum install R).\nDownload and install RStudio Desktop from posit https://posit.co/download/rstudio-desktop/\nOpen RStudio to check that there are no error messages\n\nThe tidyverse packages https://www.tidyverse.org/packages/ can be installed from inside RStudio by running install.packages(\"tidyverse\") in the R Console or from the Packages tab in the lower right quarter of RStudio."
+  },
+  {
+    "objectID": "index.html#class-structure",
+    "href": "index.html#class-structure",
+    "title": "GG606 Winter 2024",
+    "section": "1.7 Class Structure",
+    "text": "1.7 Class Structure\n\nEach class will begin with a high-level discussion and presentation of the topic. Students are encouraged to participate and bring examples from their field of study for discussion.\nEach class will have computer-based work and associated readings and discussion of R for Data Science and Happy Git with R that the students will lead. It is important to come prepared and with questions."
+  },
+  {
+    "objectID": "index.html#evaluation",
+    "href": "index.html#evaluation",
+    "title": "GG606 Winter 2024",
+    "section": "1.8 Evaluation",
+    "text": "1.8 Evaluation\n\n\n\n\n\n\n\n\nAssessment\nWeighting\nDue Date\n\n\n\n\nAssignments (2×15%)\n30%\nFebruary 8\nMarch 7\n\n\nAnalytics Demo\n40%\nMarch 28 & April 4\n\n\nLecture Engagement (2×5%)\n10%\n\n\n\nParticipation\n15%\n\n\n\nCourse notebook\n15%\n\n\n\nTotal\n100%\n\n\n\n\n\n1.8.1 Assignments\nTwo assignments will require students to demonstrate data wrangling and visualisation skills learned in the course. Data sets will be provided.\n\n\n1.8.2 Analytics Demo\nStudents will demonstrate a technical topic with a complete analytic walk-through of an existing analysis from a paper in an area of interest.\n\n\n1.8.3 Lecture Engagement\nTwo engagement pieces will require students to conduct short data wrangling exercises to apply material directly from the lectures. Data sets will be provided.\n\n\n1.8.4 Participation\nStudents will be expected to attend and participate in designated class times. Participate includes contributing to discussions and working collaboratively with other students when needed.\n\n\n1.8.5 Course Notebook\nStudents will keep a notebook to keep track of their learning throughout the course. These can be as digital or hardcopy, and will be graded at the end of the course for depth and quality of notes, and coverage of topics covered in the course. Hardcopy notebooks will be returned to students after grading. The goals of the notebook are to encourage some active participation and learning in the lecture part of the course and to encourage students to build their own take-aways that can be used later."
+  },
+  {
+    "objectID": "index.html#schedule",
+    "href": "index.html#schedule",
+    "title": "GG606 Winter 2024",
+    "section": "1.9 Schedule",
+    "text": "1.9 Schedule\n\n\n\nWeek\nTopic\nTools\n\n\n\n\nJanuary 11\nIntroduction, data visualisation\n\n\n\nJanuary 18\nData workflows\n\n\n\nJanuary 25\nData transformations and wrangling\n\n\n\nFebruary 1\nExploration, data types\n\n\n\nFebruary 8\nTidying data, data forms and formats\n\n\n\nFebruary 15\nDates, times, time series\n\n\n\nFebruary 22\nReading Week\n\n\n\nFebruary 29\nWork Period & Catch Up\n\n\n\nMarch 7\nPipes and functions\n\n\n\nMarch 14\nFunctions, more functions and packages & Misc\n\n\n\nMarch 21\nPresentations\n\n\n\nMarch 28\nPresentations\n\n\n\nApril 4\nPresentations"
+  },
+  {
+    "objectID": "readings.html#intro-data-vis",
+    "href": "readings.html#intro-data-vis",
+    "title": "2  Readings",
+    "section": "2.1 Intro, Data vis",
+    "text": "2.1 Intro, Data vis\nThis week will provide an introduction to data science using R. You will be introduced to data science through the lens of exploratory data analysis, beginning with the Wlole Game section of the R4DS (2e) textbook, read and work through the following chapters:\n\n2.1.1 Reading this week\n\nR4DS Whole Game\nR4DS Chapter 1 Data vis\nR4DS Chapter 2 Workflow basics\npalmerpenguins package homework"
+  },
+  {
+    "objectID": "readings.html#data-workflows",
+    "href": "readings.html#data-workflows",
+    "title": "2  Readings",
+    "section": "2.2 Data workflows",
+    "text": "2.2 Data workflows\n\n2.2.1 Reading this week\n\nR4DS Chapter 6 Workflow scripts and projects\nR4DS Chapter 8 Getting help\nWickham. 2014. Tidy Data. Journal of Statistical Software, 59(10), 1–23. DOI: 10.18637/jss.v059.i10\nhere package homework\nJenny Bryan’s view on project-oriented workflows"
+  },
+  {
+    "objectID": "readings.html#data-transformations-and-wrangling",
+    "href": "readings.html#data-transformations-and-wrangling",
+    "title": "2  Readings",
+    "section": "2.3 Data transformations and wrangling",
+    "text": "2.3 Data transformations and wrangling\nThis week will cover the surprisingly important topic of data workflows including input and output. In the Transform section of the textbook, read and work through the following chapters:\nThis week will cover changing, creating, reordering variables in order to wrangle and organise data. Ideas of wider data vs longer data (and messy) are important here too.\n\n2.3.1 Reading this week\n\nR4DS Transform section\nR4DS Chapter 3 Data transformation\nR4DS Chapter 7 Data import\nR4DS Chapter 5 Data tidying\nKarl W. Broman & Kara H. Woo (2018) Data Organization in Spreadsheets, The American Statistician, 72:1, 2-10, DOI: 10.1080/00031305.2017.1375989"
+  },
+  {
+    "objectID": "readings.html#exploration-data-types",
+    "href": "readings.html#exploration-data-types",
+    "title": "2  Readings",
+    "section": "2.4 Exploration, data types",
+    "text": "2.4 Exploration, data types\nThis week will continue to cover more wrangling and dealing with varying data types.\n\n2.4.1 Reading this week\n\nR4DS Transform section\nR4DS Chapter 7 Data import\nR4DS Chapter 5 Data tidying continued\nAmelia McNamara & Nicholas J. Horton (2018) Wrangling Categorical Data in R, The American Statistician, 72:1, 97-104, DOI: 10.1080/00031305.2017.1356375\nWHO example in R4DS Chapter 5"
+  },
+  {
+    "objectID": "readings.html#tidying-data-data-forms-and-formats",
+    "href": "readings.html#tidying-data-data-forms-and-formats",
+    "title": "2  Readings",
+    "section": "2.5 Tidying data, data forms and formats",
+    "text": "2.5 Tidying data, data forms and formats\nThis week will move from wrangling data to using and creating relational data, dealing with and using strings and rexexps, and ideas around categorical (aka factors) variables.\n\n2.5.1 Reading this week\n\nR4DS Chapter 19 Joins\nR4DS Chapter 14 Strings\nR4DS Chapter 16 Factors\nAmelia McNamara & Nicholas J. Horton (2018) Wrangling Categorical Data in R, The American Statistician, 72:1, 97-104, DOI: 10.1080/00031305.2017.1356375"
+  },
+  {
+    "objectID": "readings.html#dates-times-time-series",
+    "href": "readings.html#dates-times-time-series",
+    "title": "2  Readings",
+    "section": "2.6 Dates, times, time series",
+    "text": "2.6 Dates, times, time series\nThis week will continue in the Transform section and cover everyone’s favourites dates and times. Time series data are a special type of data where we may have to consider the temporal autocorrelation as well as the common push to produce forecasts and fables.\n\n2.6.1 Reading this week\n\nR4DS Chapter 16 Factors\nR4DS Chapter 17 Dates and times"
+  },
+  {
+    "objectID": "readings.html#functions-and-iteration",
+    "href": "readings.html#functions-and-iteration",
+    "title": "2  Readings",
+    "section": "2.7 Functions and iteration",
+    "text": "2.7 Functions and iteration\nThis week we will move to the Program section and start thinking about automating some of the work.\n\n2.7.1 Reading this week\n\nR4DS Program section\nR4DS Chapter 25 Functions\nR4DS Chapter 26 Iteration"
+  },
+  {
+    "objectID": "readings.html#functions-and-packages",
+    "href": "readings.html#functions-and-packages",
+    "title": "2  Readings",
+    "section": "2.8 Functions and packages",
+    "text": "2.8 Functions and packages\n\nR Packages (2e)\n\n\n2.8.1 Reading this week\nHart EM, Barmby P, LeBauer D, Michonneau F, Mount S, Mulrooney P, et al. 2016. Ten Simple Rules for Digital Data Storage. PLoS Comput Biol12(10): e1005097, DOI: 10.1371/journal.pcbi.1005097"
+  },
+  {
+    "objectID": "assignments.html#assignment-1---importing-parsing-and-querying-data-in-the-wild",
+    "href": "assignments.html#assignment-1---importing-parsing-and-querying-data-in-the-wild",
+    "title": "3  Assignments",
+    "section": "3.1 Assignment 1 - Importing, parsing, and querying data in the wild",
+    "text": "3.1 Assignment 1 - Importing, parsing, and querying data in the wild\nThe National Earthquake Information Center (NEIC) determines the location and size of all significant earthquakes that occur worldwide and disseminates this information immediately to national and international agencies, scientists, critical facilities, and the general public. The NEIC compiles and provides to scientists and to the public an extensive seismic database that serves as a foundation for scientific research through the operation of modern digital national and global seismograph networks and cooperative international agreements.\nThis dataset includes a record of the date, time, location, depth, magnitude, and source of every earthquake with a reported magnitude 2.5 or greater since 1965. Since the API for the NEIC database only allows 20,000 data points to be downloaded at once, I have provided a dataset from 1960 to 2023 for earthquakes of magnitude 5.5 or greater. Please consult https://earthquake.usgs.gov/earthquakes/search/ to see how the data can be delivered and for the documentation.\nYou can use this Rmd file or this qmd file as a template. Rstudio (now posit) has some easy to follow lessons on rmarkdown https://rstudio.github.io/cheatsheets/html/rmarkdown.html and quarto https://rstudio.github.io/cheatsheets/html/quarto.html . We will briefly discuss rmarkdown and quarto in class.\nYour assignment should answer the following questions and be as reproducible as you can make it (i.e., I should be able to reproduce your answers). This means that you must read data in from a URL so that I can replicate your work, do not include any external data files in your submission, only submit one Rmd or qmd file. You can use external data to supplement your analyses if you want to. For each answer provide a short write up explaining the approach you took to the question. There are not necessarily correct answers, and I expect your answers to vary from classmates, however you should be able to provide a clear illustration via your code of how you arrived at the conclusion you did.\nQuestions:\n\nRead the data in and clean it for analysis, using the readr package functions for reading and parsing data. Provide a few comments on the types of earthquakes and the sources of information of the earthquakes. [5 marks]\nDid more earthquakes happen on weekends or weekdays? Include a figure [5 marks]\nHas there been any change in the frequency of earthquakes? Include a figure [5 marks]\nWhere were there more earthquakes in the 1990s, South America or North America? Include a figure [5 marks]\nComment on changes in the data with time: a) earthquakes per year, b) type of earthquakes, and c) magnitude resolution. Include a figure [5 marks]\nComment on how lessons from Wilke’s Fundamentals of Data Visualization were applied to each figure with specific reference to book sections [5 marks]"
+  },
+  {
+    "objectID": "assignments.html#assignment-2---real-world-data-wrangling",
+    "href": "assignments.html#assignment-2---real-world-data-wrangling",
+    "title": "3  Assignments",
+    "section": "3.2 Assignment 2 - Real world data wrangling",
+    "text": "3.2 Assignment 2 - Real world data wrangling\nThe Canadian Census from 2021 has mostly be released and made available to the public. You will analyze Canadian census data for this assignment. However, the real goal of this assignment is to get you familiar with the process of learning a new R package. More than anything, the R landscape of packages is quickly changing and being able to learn about, understand, and use new packages is a vital skill for scientific data wrangling. Often, new published papers will have related R packages and may or may not have clear documentation or vignettes (which are best for getting up and running). Evaluating an R package requires quickly ascertaining whether a package can do what you need it to, how to format data for it, what outputs are generated, and what parameters need to be set/configured. There is very little standardization across R packages (outside of the tidyverse) so this step of evaluation can take some time..\nYour goal for this assignment is to get up and running with the cancensus package. You can learn more about the cancensus package here: https://mountainmath.github.io/cancensus/index.html\nTo submit for this assignment: a reproducible rmarkdown or quarto file that develops an analysis of census data for a geographical location in Canada of interest to you. You are free to incorporate external data from other sources if you wish, but the focus should be on data that are in the census. The geography of interest must meet the following criteria:\n\nhas a name that starts with same letter as your first name or last name;\nis comprised of at least 30 geographic units; and\nis somewhere that you have not personally visited; and\ninvolves at least three census dates.\n\nThe analysis may focus on traditional census themes like population change or dive deep into more specific demographic or regional questions. Your analysis should present a coherent data story, and should mix visualizations and written interpretations of your analysis. You must include all R code for reproducing your report, however do not have to show all of the code in the output in the final report (i.e. you can have echo=FALSE in some of your code chunks if you want them hidden from the output - learn how to use chunk options in RStudio https://rmarkdown.rstudio.com/lesson-3.html or https://quarto.org/docs/get-started/computations/rstudio.html ). Focus on quality over quantity, only include analysis which contributes to your overall narrative, do not include every type of graph or model you explored.\nMarks will be reserved for detailed comment on how lessons from Wilke’s Fundamentals of Data Visualization were applied to each figure."
+  },
+  {
+    "objectID": "assignments.html#analytics-demo",
+    "href": "assignments.html#analytics-demo",
+    "title": "3  Assignments",
+    "section": "3.3 Analytics Demo",
+    "text": "3.3 Analytics Demo\nStudents will work on a major project which will require a technical overview of an analysis of their choosing. None of the data used in this analysis can come from the student’s own research group. This will be presented in the last weeks of the course as a technical demonstration in class.\nThe goal of this project is to demonstrate a technical topic to an audience in an interesting way. Being able to communicate technical details in accessible ways is a critical skill for working with collaborators on scientific projects. People need to know what you did, what decisions were made and why, how they affected the outcome, and potential issues or shortcomings in the approach taken. While peer-review is one part of the scientific knowledge production process - increasingly it is not sufficient to just describe your methods in a paper, but these must be presented as supplementary code or a notebook which documents exact data processing steps.\nYour task for the term project is to provide a complete analytic walk-through of an existing analysis from a paper in an area of interest (i.e., replicated by you but not from your research group). Please consult with me to confirm your chosen topic.\nUseful data repositories include https://pangaea.de/ , https://borealisdata.ca/ , and https://portal.edirepository.org/ but many publishers will also host data with the peer-reviewed article.\n\nDemonstration: In this part of the project your goal is to articulate as clearly as possible to a scientific but non-specialized audience the full scope of your analysis. This should comprise about half of your written report and about 70% of your presentation/overview in class.\nCritique: In this part of the project you should critically analyze the analysis and/or methods implemented in the package. Focus here on issues of data quality, uncertainty, key parameters, workflow, etc. Your aim here is to provide a critical overview of the methods and analysis presented so as to provide guidance and advice to scientific collaborators.\nSubmission: The term project here is comprised of a written report and an in-class demonstration. The report will be worth 65 points according to the following breakdown:\nTechnical depth ‒ /40\nCritique ‒ /25\nAccuracy ‒ /20\nWriting style ‒ /15\nThe presentation will be worth 35 points and graded according to the following breakdown:\nAesthetic appeal ‒ /25\nClarity and communication style ‒ /25\nTechnical completeness ‒ /50\n\nThe report should be no longer than 4000 words. The presentation should be between 13-15 minutes. The presentation file will not be submitted for grading."
+  },
+  {
+    "objectID": "assignments.html#lecture-engagement",
+    "href": "assignments.html#lecture-engagement",
+    "title": "3  Assignments",
+    "section": "3.4 Lecture engagement",
+    "text": "3.4 Lecture engagement\nData analysis can often begin with cleaning and organizing data from other people or other research groups. The first engagement is to work through cleaning the raw palmerpanguins data to turn it into the cleaned penguins data used in the R for Data Science book. The goal is to give you exposure to several different tools and data issues in a controlled environment. Here is the raw data csv file.\nThe second engagement is to work through importing, cleaning, and summarizing one spreadsheet of water isotope analyses. The goal is to give you exposure to the types of data you can receive from an analytical lab or a colleague and need to deal with. Here is the xlsx file.\nYou can use this Rmd file or this qmd file as a template.\nYour assignment should answer the following question(s) and be as reproducible as you can make it (i.e., I should be able to reproduce your answers). Do not include any external data files in your submission, only submit one .Rmd or .qmd file.\n\n3.4.1 Questions for the palmerpenguins:\n\nWere you successful in cleaning the palmerpenguins raw data? Comment on three places where you would do something different. [5 marks]\n\n\n\n3.4.2 Questions for the water isotopes:\n\nWere you successful in importing and cleaning the data? Comment on two places where you were tripped up. [3 marks]\nSummarize the data with a plot of δ18O-H2O (x axis) vs δ2H-H2O (y axis). Draw on the Global Meteoric Water Line (δ2H = 8.0 × δ18O + 10‰). This is the most common plot to begin visualizing these types of data. [2 marks]\nSee https://en.wikipedia.org/wiki/Global_meteoric_water_line for more details if you are curious about water isotopes."
+  },
+  {
+    "objectID": "assignments.html#participation",
+    "href": "assignments.html#participation",
+    "title": "3  Assignments",
+    "section": "3.5 Participation",
+    "text": "3.5 Participation\nStudents are expected to attend and participate in designated class times. Participation includes contributing to discussions, presenting small pieces of weekly homework, and working collaboratively with other students when needed."
+  },
+  {
+    "objectID": "assignments.html#course-notebook",
+    "href": "assignments.html#course-notebook",
+    "title": "3  Assignments",
+    "section": "3.6 Course Notebook",
+    "text": "3.6 Course Notebook\nStudents will keep a notebook to keep track of their learning throughout the course. These can be as digital or hardcopy, and will be graded at the end of the course for depth and quality of notes, and coverage of topics covered in the course. Hardcopy notebooks will be returned to students after grading. The goals of the notebook are to encourage some active participation and learning in the lecture part of the course and to encourage students to build their own take-aways that can be used later."
+  }
+]
