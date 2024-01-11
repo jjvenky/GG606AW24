@@ -84,7 +84,7 @@ The report should be no longer than 4000 words. The presentation should be betwe
 
 Data analysis can often begin with cleaning and organizing data from other people or other research groups. The first engagement is to work through cleaning the raw palmerpanguins data to turn it into the cleaned penguins data used in the R for Data Science book. The goal is to give you exposure to several different tools and data issues in a controlled environment. Here is the raw data [csv file](https://raw.githubusercontent.com/allisonhorst/palmerpenguins/master/inst/extdata/penguins_raw.csv).
 
-The second engagement is to work through importing, cleaning, and summarizing one spreadsheet of water isotope analyses. The goal is to give you exposure to the types of data you can receive from an analytical lab or a colleague and need to deal with. Here is the [xlsx file](Water Isotopes 31-June-22.xlsx).
+The second engagement is to work through importing, cleaning, and summarizing one spreadsheet of water isotope analyses. The goal is to give you exposure to the types of data you can receive from an analytical lab or a colleague and need to deal with. Here is the [xlsx file](Water%20Isotopes%2031-June-22.xlsx).
 
 You can use this [Rmd file](GG606_template.Rmd) or this [qmd file](GG606_template.qmd) as a template.
 
