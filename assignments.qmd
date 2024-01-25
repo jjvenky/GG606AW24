@@ -6,7 +6,7 @@ title: "Assignments"
 
 The National Earthquake Information Center (NEIC) determines the location and size of all significant earthquakes that occur worldwide and disseminates this information immediately to national and international agencies, scientists, critical facilities, and the general public. The NEIC compiles and provides to scientists and to the public an extensive seismic database that serves as a foundation for scientific research through the operation of modern digital national and global seismograph networks and cooperative international agreements.
 
-This [dataset](earthquakes_5.5_1960-2023.csv) includes a record of the date, time, location, depth, magnitude, and source of every earthquake with a reported magnitude 2.5 or greater since 1965. Since the API for the NEIC database only allows 20,000 data points to be downloaded at once, I have provided a dataset from 1960 to 2023 for earthquakes of magnitude 5.5 or greater. Please consult <https://earthquake.usgs.gov/earthquakes/search/> to see how the data can be delivered and for the documentation.
+This [dataset](data/earthquakes_5.5_1960-2023.csv) includes a record of the date, time, location, depth, magnitude, and source of every earthquake with a reported magnitude 2.5 or greater since 1965. Since the API for the NEIC database only allows 20,000 data points to be downloaded at once, I have provided a dataset from 1960 to 2023 for earthquakes of magnitude 5.5 or greater. Please consult <https://earthquake.usgs.gov/earthquakes/search/> to see how the data can be delivered and for the documentation.
 
 You can use this [Rmd file](GG606_assignment_1_sample.Rmd) or this [qmd file](GG606_assignment_1_sample.qmd) as a template. Rstudio (now posit) has some easy to follow lessons on rmarkdown <https://rstudio.github.io/cheatsheets/html/rmarkdown.html> and quarto <https://rstudio.github.io/cheatsheets/html/quarto.html> . We will briefly discuss rmarkdown and quarto in class.
 
@@ -84,7 +84,7 @@ The report should be no longer than 4000 words. The presentation should be betwe
 
 Data analysis can often begin with cleaning and organizing data from other people or other research groups. The first engagement is to work through cleaning the raw palmerpanguins data to turn it into the cleaned penguins data used in the R for Data Science book. The goal is to give you exposure to several different tools and data issues in a controlled environment. Here is the raw data [csv file](https://raw.githubusercontent.com/allisonhorst/palmerpenguins/master/inst/extdata/penguins_raw.csv).
 
-The second engagement is to work through importing, cleaning, and summarizing one spreadsheet of water isotope analyses. The goal is to give you exposure to the types of data you can receive from an analytical lab or a colleague and need to deal with. Here is the [xlsx file](Water%20Isotopes%2031-June-22.xlsx).
+The second engagement is to work through importing, cleaning, and summarizing one spreadsheet of water isotope analyses. The goal is to give you exposure to the types of data you can receive from an analytical lab or a colleague and need to deal with. Here is the [xlsx file](data/Water%20Isotopes%2031-June-22.xlsx).
 
 You can use this [Rmd file](GG606_template.Rmd) or this [qmd file](GG606_template.qmd) as a template.
 
