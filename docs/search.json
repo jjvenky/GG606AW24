@@ -67,7 +67,7 @@
     "href": "index.html#schedule",
     "title": "GG606 Winter 2024",
     "section": "1.9 Schedule",
-    "text": "1.9 Schedule\n\n\n\nWeek\nTopic\nCode examples\n\n\n\n\nJanuary 11\nIntroduction, data visualisation\nlecture_01.R\n\n\nJanuary 18\nData workflows\nlecture_02.R\n\n\nJanuary 25\nData transformations and wrangling\nlecture_03.R\n\n\nFebruary 1\nExploration, data types\nlecture_04.R\n\n\nFebruary 8\nTidying data, data forms and formats\n\n\n\nFebruary 15\nDates, times, time series\n\n\n\nFebruary 22\nReading Week\n\n\n\nFebruary 29\nWork Period & Catch Up\n\n\n\nMarch 7\nPipes and functions\n\n\n\nMarch 14\nFunctions, more functions and packages & Misc\n\n\n\nMarch 21\nPresentations\n\n\n\nMarch 28\nPresentations\n\n\n\nApril 4\nPresentations"
+    "text": "1.9 Schedule\n\n\n\nWeek\nTopic\nCode examples\n\n\n\n\nJanuary 11\nIntroduction, data visualisation\nlecture_01.R\n\n\nJanuary 18\nData workflows\nlecture_02.R\n\n\nJanuary 25\nData transformations and wrangling\nlecture_03.R\n\n\nFebruary 1\nExploration, data types\nlecture_04.R\n\n\nFebruary 8\nTidying data, data forms and formats\nlecture_05.R\n\n\nFebruary 15\nDates, times, time series\n\n\n\nFebruary 22\nReading Week\n\n\n\nFebruary 29\nWork Period & Catch Up\n\n\n\nMarch 7\nPipes and functions\n\n\n\nMarch 14\nFunctions, more functions and packages & Misc\n\n\n\nMarch 21\nPresentations\n\n\n\nMarch 28\nPresentations\n\n\n\nApril 4\nPresentations"
   },
   {
     "objectID": "readings.html#intro-data-vis",
